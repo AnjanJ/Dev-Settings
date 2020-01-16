@@ -10,6 +10,7 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias edit='subl'                           # edit: Opens any file in sublime editor
+alias gh='history|grep'                     # eg: gh bash
 # git aliases
 alias gs='git status'
 alias gp='git pull'
