@@ -17,6 +17,8 @@ alias gb='git branch'
 alias ga='git add'
 alias gps='git push'
 alias gc='git commit -m $1'
+# clear screen
+alias c,='clear'
 
 function prompt {
   local BLACK="\[\033[0;30m\]"
