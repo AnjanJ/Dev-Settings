@@ -10,6 +10,13 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias edit='subl'                           # edit: Opens any file in sublime editor
+# git aliases
+alias gs='git status'
+alias gp='git pull'
+alias gb='git branch'
+alias ga='git add'
+alias gps='git push'
+alias gc='git commit -m $1'
 
 function prompt {
   local BLACK="\[\033[0;30m\]"
