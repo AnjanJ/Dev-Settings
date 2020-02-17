@@ -11,15 +11,30 @@ alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias edit='subl'                           # edit: Opens any file in sublime editor
 alias gh='history|grep'                     # eg: gh bash
+
 # git aliases
 alias gs='git status'
 alias gp='git pull'
 alias gb='git branch'
 alias ga='git add'
+alias gd='git diff'
+alias gl='git pull'
+alias gf='git fetch'
 alias gps='git push'
 alias gc='git commit -m $1'
+
 # clear screen
 alias c,='clear'
+
+# rails alises
+alias rs='rails s'
+alias rc='rails c'
+alias rg='rails g'
+alias rr='rails routes'
+alias rdbm='rails db:migrate'
+
+# alias to projects
+alias exrb='cd ~/snap/exercism/5/exercism/ruby/'
 
 function prompt {
   local BLACK="\[\033[0;30m\]"
